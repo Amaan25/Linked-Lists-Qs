@@ -9,7 +9,7 @@ struct node
     struct node* next;
 };
 
-void reverse_print (struct node* p)
+void reverse (struct node* p)
 {
     if (p->next != NULL)
     {
